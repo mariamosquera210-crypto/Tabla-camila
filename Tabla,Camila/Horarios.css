@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.horario{
+    margin: 60;
+
+}
+
+table, td, tr, th{
+border: 1px solid black;
+}
+td, th{
+    padding: 15px;
+
+}
+
+caption{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+ thead{
+    background-color: cadetblue;
+    color: aquamarine;
+ }
+  tbody th{
+    background-color: bisque;
+    font-size: 0.7rem;
+
+  }
+
+.pausa{
+    text-align: center;
+    font-style: italic;
+    background-color: azure;
+
+}
+
+.tecnica:hover{
+    transform: scale(11);
+}
+
+.embiente{
+    display:block;
+    color: beige;
+    font-size: 0.7rem;
+}
+
+tfoot{
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+.tabla-contenedor{
+    overflow-x: auto;
+}
+
+thead{
+    position: sticky;
+}
